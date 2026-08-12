@@ -1,0 +1,65 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .container-one, .footer{
+    background-color: #1F2937;
+    padding: 15px 40px;
+
+}
+
+.header{
+    display:flex;
+    font-size: 24px;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: normal;
+    color: grey;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.container-one{
+    display:flex;
+}
+
+.one-left{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.hero, .signup-btn, .header, .hero-sub{
+    color: white;
+}
+
+.hero{
+    font-size: 48px;
+}
+img{
+    width: 500px;
+    height: 250px;
+}
+
+
+.signup-btn{
+    background-color: #3882F6;
+    padding: 5px; 
+    border-radius: 4px;
+    flex-grow: 0;
+}
+
